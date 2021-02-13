@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  padding: 5rem;
+}
+
+.about-box {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+}
+
+.about-text,
+.home-section {
+  height: 100%;
+}
+
+.about-text {
+  padding: 2rem;
+  width: 90%;
+  background-color: white;
+}
+
+.home-section {
+  position: relative;
+  text-align: center;
+  padding-top: 24rem;
+  width: 10%;
+  background-color: black;
+}
+
+h1,
+p {
+  animation: fadeIn 1s;
+}
+
+p {
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+.icon {
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 200px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

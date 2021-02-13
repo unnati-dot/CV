@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4rem;
+  background-color: #f0f0f0;
+}
+
+.container,
+.container-2 {
+  width: 100%;
+  height: 90vh;
+}
+
+.container {
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 0 40%);
+  background-color: white;
+}
+
+.container h1 {
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 4.5rem;
+  position: relative;
+}
+
+.container-2 {
+  background-color: black;
+  margin-top: -28rem;
+  color: white;
+  padding-top: 11rem;
+}
+
+.container-2 > ul > li {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  list-style: none;
+}
+
+.container-2 > ul > li > p {
+  margin-top: -2rem;
+}
+
+.icon {
+  font-size: 3.8rem;
+  top: 160px;
+  color: black;
+  left: 1160px;
+  position: absolute;
+}
+
+.parent {
+  box-shadow: 0px 0px 20px 10px black;
+  animation: fadeInTop 2s;
+}
+
+
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
