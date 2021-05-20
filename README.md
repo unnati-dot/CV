@@ -1,4 +1,4 @@
-# Hi my name is Unnati Aggarwal and i am a full stack web developer
+# Hi this is my resume website 
 
 ### see the live demo here:
 https://unnati-dot.github.io/my-resume/
